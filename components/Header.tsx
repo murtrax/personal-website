@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { NAV_ITEMS } from "@/utls/constants";
+import { NAV_ITEMS } from "@/utils/constants";
 
 const Header = () => {
   return (
