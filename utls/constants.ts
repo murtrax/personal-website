@@ -1,4 +1,4 @@
-export const NAV_ITEMS = [
+export const NAV_ITEMS: Array<{ label: string; href: string }> = [
   {
     label: "work",
     href: "/",
@@ -14,5 +14,32 @@ export const NAV_ITEMS = [
   {
     label: "contact",
     href: "/contact",
+  },
+];
+
+export const TITLE: string = "SENIOR FULL STACK ENGINEER";
+
+export const DEV_NAME: string = "Hassaan Ahmed";
+
+export const DESCRIPTION: string = `
+  7+ years building production systems at startup scale. \n\n
+  I architect multi-agent AI workflows, DeFi infrastructure, 
+  and full-stack TypeScript platforms — and own them end-to-end.
+`;
+
+export const INTRO_LINKS = [
+  {
+    label: "View resume ↓",
+    href: "/resume.pdf",
+  },
+  {
+    label: "github.com/murtrax",
+    href: "https://github.com/murtrax",
+    external: true,
+  },
+  {
+    label: "LinkedIn",
+    href: "https://linkedin.com/in/hassaan-ahmed-293ba818a",
+    external: true,
   },
 ];

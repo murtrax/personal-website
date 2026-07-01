@@ -3,15 +3,15 @@ import { NAV_ITEMS } from "@/utls/constants";
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between border-b-2 border-white/10 bg-black px-8 py-5">
+    <header className="flex items-center justify-between border-b-2 border-white/10 bg-black px-8 py-5 font-mono">
       <span className="text-electric-blue font-medium text-xl">
         hassaan.ahmed
       </span>
-      <div className="flex gap-5 text-gray-400">
+      <nav className="flex gap-5 text-gray-400">
         {NAV_ITEMS.map(({ label, href }) => {
           return (
             <Link
-              key={label}
+              key={href}
               href={href}
               className="rounded-md px-2 py-1 hover:bg-electric-blue/10 hover:text-electric-blue transition-colors"
             >
@@ -19,7 +19,7 @@ const Header = () => {
             </Link>
           );
         })}
-      </div>
+      </nav>
     </header>
   );
 };
