@@ -1,10 +1,11 @@
-import ActionLinks from "@/components/ActionLinks";
-import TagLine from "@/components/TagLine";
+import Section from "@/components/ui/Section";
+import ActionLinks from "@/components/ui/ActionLinks";
+import TagLine from "@/components/ui/TagLine";
 import { TITLE, DEV_NAME, DESCRIPTION, INTRO_LINKS } from "@/utils/constants";
 
 const Intro = () => {
   return (
-    <section className="flex flex-col justify-center px-8 pt-25 border-b-2 border-white/10 gap-10">
+    <Section className="pt-20 gap-10">
       <TagLine />
       <p className="font-mono text-electric-blue font-bold text-sm tracking-wide [word-spacing:0.25rem]">
         {TITLE}
@@ -20,7 +21,7 @@ const Intro = () => {
         <p className=" text-gray-400 text-xl">{DESCRIPTION}</p>
       </div>
       <ActionLinks links={INTRO_LINKS} />
-    </section>
+    </Section>
   );
 };
 
