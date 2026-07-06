@@ -1,9 +1,11 @@
 import ActionLinks from "@/components/ActionLinks";
+import TagLine from "@/components/TagLine";
 import { TITLE, DEV_NAME, DESCRIPTION, INTRO_LINKS } from "@/utils/constants";
 
 const Intro = () => {
   return (
     <section className="flex flex-col justify-center px-8 pt-25 border-b-2 border-white/10 gap-10">
+      <TagLine />
       <p className="font-mono text-electric-blue font-bold text-sm tracking-wide [word-spacing:0.25rem]">
         {TITLE}
       </p>

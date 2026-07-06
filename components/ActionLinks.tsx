@@ -7,7 +7,7 @@ interface ActionLinksProps {
 
 const ActionLinks = ({ links }: ActionLinksProps) => {
   return (
-    <nav className="flex gap-10 text-lg" aria-label="Profile links">
+    <nav className="flex gap-5 text-lg" aria-label="Profile links">
       {links.map(({ label, href, external }) => {
         return (
           <Link

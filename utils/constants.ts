@@ -42,3 +42,5 @@ export const INTRO_LINKS: ActionLink[] = [
     external: true,
   },
 ];
+
+export const TAG_LINE = "open to opportunities . relocating to Europe";
