@@ -1,4 +1,6 @@
-import type { ActionLink, JobHistory } from "@/utils/types";
+import type { ActionLink, JobHistory, FeaturedProject } from "@/utils/types";
+
+export const HEADER_FEATURE_TEXT = "hassaan.ahmed";
 
 export const NAV_ITEMS: Array<{ label: string; href: string }> = [
   {
@@ -92,5 +94,47 @@ export const JOB_HISTORY: JobHistory[] = [
       "Built scalable backend systems and blockchain indexing pipelines delivering real-time dashboards, reducing API latency from seconds to milliseconds through query optimization and caching strategies.",
     ],
     link: "https://akru.com",
+  },
+];
+
+export const FEATURED_PROJECTS: FeaturedProject[] = [
+  {
+    title: "K3-Orchestrator",
+    description:
+      "a large-scale multi-agent AI system enabling natural-language creation and deployment of complex automation workflows with deterministic structure, dependency, and intent resolution",
+    imageUrl: "/k3-logo.svg",
+    link: "https://app.k3-labs.com",
+    skills: [
+      "LangGraph",
+      "TypeScript",
+      "Node.js",
+      "React",
+      "Redis",
+      "GCP",
+      "VertexAI",
+    ],
+  },
+  {
+    title: "Team Finance",
+    description:
+      "a DeFi analytics platform providing real-time dashboards, portfolio tracking, and insights for decentralized finance users",
+    imageUrl: "/tf-icon.svg",
+    link: "https://app.team.finance",
+    skills: [
+      "NestJS",
+      "NextJS",
+      "TypeScript",
+      "PostgreSQL",
+      "Redis",
+      "Microservices",
+    ],
+  },
+  {
+    title: "AKRU",
+    description:
+      "a full-stack real estate tokenization platform enabling SEC-compliant fractional ownership, primary and secondary sales/transfers, and end-to-end property lifecycle management for tokenized properties",
+    // imageUrl: "/akru-logo.jpeg",
+    link: "https://akru.com",
+    skills: ["React", "NestJS", "TypeScript", "PostgreSQL", "Redis", "AWS"],
   },
 ];

@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { NAV_ITEMS } from "@/utils/constants";
+import { HEADER_FEATURE_TEXT } from "@/utils/constants";
 
 const Header = () => {
   return (
     <header className="flex items-center justify-between border-b-2 border-white/10 bg-black px-8 py-5 font-mono">
       <span className="text-electric-blue font-medium text-xl">
-        hassaan.ahmed
+        {HEADER_FEATURE_TEXT}
       </span>
       <nav className="flex gap-5 text-gray-400">
         {NAV_ITEMS.map(({ label, href }) => {

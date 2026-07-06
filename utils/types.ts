@@ -14,3 +14,11 @@ export interface JobHistory {
   details: string[];
   link: string;
 }
+
+export interface FeaturedProject {
+  title: string;
+  description: string;
+  imageUrl?: string;
+  link: string;
+  skills: string[];
+}
