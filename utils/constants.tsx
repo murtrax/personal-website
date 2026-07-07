@@ -14,19 +14,19 @@ export const HEADER_FEATURE_TEXT = "hassaan.ahmed";
 export const NAV_ITEMS: Array<{ label: string; href: string }> = [
   {
     label: "work",
-    href: "/",
+    href: "#work",
   },
   {
     label: "projects",
-    href: "/projects",
+    href: "#featured",
   },
   {
     label: "skills",
-    href: "/skills",
+    href: "#skills",
   },
   {
     label: "contact",
-    href: "/contact",
+    href: "#contact",
   },
 ];
 

@@ -4,7 +4,7 @@ import { CONTACT_INFO } from "@/utils/constants";
 
 const Contact = () => {
   return (
-    <Section className="pt-15 gap-10" sectionHeading="CONTACT">
+    <Section id="contact" className="pt-15 gap-10" sectionHeading="CONTACT">
       <ul className="flex flex-wrap gap-4">
         {CONTACT_INFO.map((info) => {
           const Icon = info.icon;

@@ -4,7 +4,11 @@ import { JOB_HISTORY } from "@/utils/constants";
 
 const WorkExperience = () => {
   return (
-    <Section className="pt-15 gap-15" sectionHeading="WORK EXPERIENCE">
+    <Section
+      id="work"
+      className="pt-15 gap-15"
+      sectionHeading="WORK EXPERIENCE"
+    >
       <div className="flex flex-col gap-12">
         {JOB_HISTORY.map((job, index) => {
           return (

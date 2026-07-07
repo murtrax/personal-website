@@ -4,6 +4,7 @@ import { FEATURED_PROJECTS } from "@/utils/constants";
 const Featured = () => {
   return (
     <Section
+      id="featured"
       className="pt-15 gap-15 bg-background"
       sectionHeading="FEATURED PROJECTS"
     >

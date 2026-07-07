@@ -1,12 +1,14 @@
 interface SectionProps {
+  id: string;
   children: React.ReactNode;
   className?: string;
   sectionHeading?: string;
 }
 
-const Section = ({ children, className, sectionHeading }: SectionProps) => {
+const Section = ({ id, children, className, sectionHeading }: SectionProps) => {
   return (
     <section
+      id={id}
       className={`flex flex-col justify-center border-b-2 border-white/10 px-8 pb-10 ${className}`}
     >
       {sectionHeading && (

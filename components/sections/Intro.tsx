@@ -7,7 +7,7 @@ import { TITLE, DEV_NAME, DESCRIPTION, INTRO_LINKS } from "@/utils/constants";
 
 const Intro = () => {
   return (
-    <Section className="pt-20 gap-10">
+    <Section id="intro" className="pt-20 gap-10">
       <TagLine />
       <p className="font-mono text-electric-blue font-bold text-sm tracking-wide [word-spacing:0.25rem]">
         {TITLE}
