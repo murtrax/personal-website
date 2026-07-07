@@ -11,9 +11,10 @@ const ActionLinks = ({ links }: ActionLinksProps) => {
       className="flex gap-5 text-lg flex-col sm:flex-row"
       aria-label="Profile links"
     >
-      {links.map(({ label, href, external }) => {
+      {links.map(({ label, href, external, download }) => {
         return (
           <Link
+            download={download}
             key={href}
             href={href}
             target={external ? "_blank" : undefined}

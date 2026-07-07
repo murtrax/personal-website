@@ -5,6 +5,7 @@ export interface ActionLink {
   label: string;
   href: string;
   external?: boolean;
+  download?: boolean;
 }
 
 export interface JobHistory {
@@ -36,4 +37,9 @@ export interface ContactInfo {
 export interface TerminalCommand {
   command: string;
   output: ReactNode;
+}
+
+export interface SkillsData {
+  title: string;
+  skills: string[];
 }

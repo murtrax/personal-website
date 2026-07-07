@@ -7,6 +7,7 @@ import type {
   FeaturedProject,
   ContactInfo,
   TerminalCommand,
+  SkillsData,
 } from "@/utils/types";
 
 export const HEADER_FEATURE_TEXT = "hassaan.ahmed";
@@ -39,8 +40,9 @@ export const DESCRIPTION: string =
 
 export const INTRO_LINKS: ActionLink[] = [
   {
-    label: "View resume ↓",
-    href: "/resume.pdf",
+    label: "Download resume",
+    href: "/Hassaan_Ahmed_Full_Stack_Engineer.pdf",
+    download: true,
   },
   {
     label: "github.com/murtrax",
@@ -81,7 +83,7 @@ export const JOB_HISTORY: JobHistory[] = [
     startDate: "June 2022",
     endDate: "March  2024",
     details: [
-      "Built NestJS blockchain indexers securing $3B+ TVL across EVM chains — 90% query performance improvement.",
+      "Decomposed a tangled monolith into a fault-tolerant, event-driven microservice architecture.",
       "Led 5-engineer team, accelerated feature delivery by 40% through improved sprint planning and technical specs.",
       "Optimized full-stack performance 50%+ (LCP, FCP, TTI) via code splitting, lazy loading, API optimization.",
       // "Refactored NestJS backend with stricter TypeScript practices, enhanced error handling, and type-safe patterns, reducing production error rates by 30% and improving code maintainability",
@@ -144,6 +146,49 @@ export const FEATURED_PROJECTS: FeaturedProject[] = [
     // imageUrl: "/akru-logo.jpeg",
     link: "https://akru.com",
     skills: ["React", "NestJS", "TypeScript", "PostgreSQL", "Redis", "AWS"],
+  },
+];
+
+export const SKILLS_DATA: SkillsData[] = [
+  {
+    title: "LANGUAGES",
+    skills: ["TypeScript", "JavaScript"],
+  },
+  {
+    title: "FRONTEND",
+    skills: ["React", "NextJS"],
+  },
+  {
+    title: "BACKEND",
+    skills: [
+      "Node.js",
+      "NestJS",
+      "PostgreSQL",
+      "Redis",
+      "GraphQL",
+      "Distributed Systems",
+      "Microservices",
+      "Kafka",
+      "Event-Driven Architecture",
+    ],
+  },
+  {
+    title: "AI / ML",
+    skills: [
+      "LangGraph",
+      "LangChain",
+      "MCP",
+      "RAG",
+      "OpenAI API",
+      "Anthropic API",
+      "VertexAI",
+      "Vector Databases",
+      "Embeddings",
+    ],
+  },
+  {
+    title: "DEVOPS",
+    skills: ["GCP", "AWS", "Docker", "Kubernetes"],
   },
 ];
 

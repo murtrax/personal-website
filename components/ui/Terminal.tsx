@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { TERMINAL_COMMANDS } from "@/utils/constants";
 import type { TerminalCommand } from "@/utils/types";
 
-const TYPE_SPEED = 150;
+const TYPE_SPEED = 180;
 const OUTPUT_DELAY = 350;
 const NEXT_COMMAND_DELAY = 1650;
 
