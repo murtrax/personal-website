@@ -3,7 +3,8 @@
 :root {
   --background: #0d0f11;
   --foreground: #171717;
-  --electric-blue: #378ADD
+  --electric-blue: #378ADD;
+  --contrast: #111417;
 }
 
 @theme inline {
@@ -12,6 +13,7 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --color-electric-blue: var(--electric-blue);
+  --color-contrast: var(--contrast);
 }
 
 @media (prefers-color-scheme: dark) {

@@ -17,7 +17,7 @@ const FeatureCard = ({
   skills,
 }: FeatureCardProps) => {
   return (
-    <article className="flex min-h-[22rem] flex-col rounded-2xl border border-transparent bg-[#111417] p-8 transition-colors hover:border-electric-blue/50">
+    <article className="flex min-h-[22rem] flex-col rounded-2xl border border-transparent bg-contrast p-8 transition-colors hover:border-electric-blue/50">
       <div className="h-7">
         <Link
           href={link}

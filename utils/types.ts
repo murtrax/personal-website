@@ -1,3 +1,5 @@
+import type { IconType } from "react-icons";
+
 export interface ActionLink {
   label: string;
   href: string;
@@ -21,4 +23,11 @@ export interface FeaturedProject {
   imageUrl?: string;
   link: string;
   skills: string[];
+}
+
+export interface ContactInfo {
+  title: string;
+  link: string;
+  icon: IconType;
+  external: boolean;
 }

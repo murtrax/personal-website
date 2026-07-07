@@ -1,4 +1,12 @@
-import type { ActionLink, JobHistory, FeaturedProject } from "@/utils/types";
+import { MdEmail } from "react-icons/md";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
+import type {
+  ActionLink,
+  JobHistory,
+  FeaturedProject,
+  ContactInfo,
+} from "@/utils/types";
 
 export const HEADER_FEATURE_TEXT = "hassaan.ahmed";
 
@@ -136,5 +144,26 @@ export const FEATURED_PROJECTS: FeaturedProject[] = [
     // imageUrl: "/akru-logo.jpeg",
     link: "https://akru.com",
     skills: ["React", "NestJS", "TypeScript", "PostgreSQL", "Redis", "AWS"],
+  },
+];
+
+export const CONTACT_INFO: ContactInfo[] = [
+  {
+    title: "hassaan.ahmed.work@gmail.com",
+    link: "mailto:hassaan.ahmed.work@gmail.com",
+    icon: MdEmail,
+    external: false,
+  },
+  {
+    title: "github.com/murtrax",
+    link: "https://github.com/murtrax",
+    icon: FaGithub,
+    external: true,
+  },
+  {
+    title: "LinkedIn",
+    link: "https://linkedin.com/in/hassaan-ahmed-293ba818a",
+    icon: FaLinkedin,
+    external: true,
   },
 ];
