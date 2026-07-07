@@ -1,6 +1,8 @@
 import Section from "@/components/ui/Section";
 import ActionLinks from "@/components/ui/ActionLinks";
 import TagLine from "@/components/ui/TagLine";
+import Terminal from "@/components/ui/Terminal";
+
 import { TITLE, DEV_NAME, DESCRIPTION, INTRO_LINKS } from "@/utils/constants";
 
 const Intro = () => {
@@ -21,6 +23,7 @@ const Intro = () => {
         <p className=" text-gray-400 text-xl">{DESCRIPTION}</p>
       </div>
       <ActionLinks links={INTRO_LINKS} />
+      <Terminal />
     </Section>
   );
 };

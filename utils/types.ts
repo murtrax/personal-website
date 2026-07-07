@@ -1,4 +1,5 @@
 import type { IconType } from "react-icons";
+import type { ReactNode } from "react";
 
 export interface ActionLink {
   label: string;
@@ -30,4 +31,9 @@ export interface ContactInfo {
   link: string;
   icon: IconType;
   external: boolean;
+}
+
+export interface TerminalCommand {
+  command: string;
+  output: ReactNode;
 }
