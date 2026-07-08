@@ -13,7 +13,7 @@ const WorkExperience = () => {
         {JOB_HISTORY.map((job, index) => {
           return (
             <div key={job.company} className="flex flex-col gap-2">
-              <div className="flex justify-between gap-4 items-start">
+              <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
                 <div>
                   <h3 className="font-bold text-xl underline decoration-white/20 underline-offset-4 decoration-0 hover:text-electric-blue transition-colors">
                     <Link href={job.link} target="_blank" rel="noreferrer">
@@ -24,7 +24,7 @@ const WorkExperience = () => {
                     {job.title}
                   </p>
                 </div>
-                <div className="flex flex-col items-end text-sm text-gray-500 font-mono">
+                <div className="flex flex-col text-left text-sm text-gray-500 font-mono sm:text-right">
                   <p>
                     {job.startDate} - {job.endDate}
                   </p>
