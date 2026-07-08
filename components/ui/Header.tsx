@@ -26,7 +26,11 @@ const Header = () => {
 
         <nav className="hidden gap-5 text-gray-400 md:flex">
           {NAV_ITEMS.map(({ label, href }) => (
-            <Link key={href} href={href}>
+            <Link
+              key={href}
+              href={href}
+              className="rounded-md px-2 py-1 hover:bg-electric-blue/10 hover:text-electric-blue transition-colors"
+            >
               {label}
             </Link>
           ))}

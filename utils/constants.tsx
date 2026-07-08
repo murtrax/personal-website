@@ -111,7 +111,7 @@ export const FEATURED_PROJECTS: FeaturedProject[] = [
   {
     title: "K3-Orchestrator",
     description:
-      "a large-scale multi-agent AI system enabling natural-language creation and deployment of complex automation workflows with deterministic structure, dependency, and intent resolution",
+      "Multi-agent orchestration platform powering thousands of concurrent AI workflows.",
     imageUrl: "/k3-logo.svg",
     link: "https://app.k3-labs.com",
     skills: [
@@ -122,12 +122,16 @@ export const FEATURED_PROJECTS: FeaturedProject[] = [
       "Redis",
       "GCP",
       "VertexAI",
+      "RAG",
+      "MCP",
+      "Kafka",
+      "Docker",
     ],
   },
   {
     title: "Team Finance",
     description:
-      "a DeFi analytics platform providing real-time dashboards, portfolio tracking, and insights for decentralized finance users",
+      "Multi-chain DeFi platform for end to end token management at $3B+ TVL.",
     imageUrl: "/tf-icon.svg",
     link: "https://app.team.finance",
     skills: [
@@ -137,15 +141,27 @@ export const FEATURED_PROJECTS: FeaturedProject[] = [
       "PostgreSQL",
       "Redis",
       "Microservices",
+      "Pub/Sub",
+      "GraphQL",
+      "Redux",
     ],
   },
   {
     title: "AKRU",
     description:
-      "a full-stack real estate tokenization platform enabling SEC-compliant fractional ownership, primary and secondary sales/transfers, and end-to-end property lifecycle management for tokenized properties",
+      "SEC-compliant real estate tokenization platform — $10M+ in tokenized properties, full lifecycle management.",
     // imageUrl: "/akru-logo.jpeg",
     link: "https://akru.com",
-    skills: ["React", "NestJS", "TypeScript", "PostgreSQL", "Redis", "AWS"],
+    skills: [
+      "React",
+      "NestJS",
+      "TypeScript",
+      "PostgreSQL",
+      "Redis",
+      "AWS",
+      "Stripe",
+      "Socket.io",
+    ],
   },
 ];
 
@@ -156,7 +172,16 @@ export const SKILLS_DATA: SkillsData[] = [
   },
   {
     title: "FRONTEND",
-    skills: ["React", "NextJS"],
+    skills: [
+      "React",
+      "NextJS",
+      "TailwindCSS",
+      "React Flow",
+      "TanStack",
+      "HTML/CSS",
+      "Redux",
+      "React Query",
+    ],
   },
   {
     title: "BACKEND",
@@ -170,6 +195,7 @@ export const SKILLS_DATA: SkillsData[] = [
       "Microservices",
       "Kafka",
       "Event-Driven Architecture",
+      "Websockets",
     ],
   },
   {
@@ -184,11 +210,21 @@ export const SKILLS_DATA: SkillsData[] = [
       "VertexAI",
       "Vector Databases",
       "Embeddings",
+      "Fine Tuning",
     ],
   },
   {
     title: "DEVOPS",
-    skills: ["GCP", "AWS", "Docker", "Kubernetes"],
+    skills: [
+      "GCP",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "CloudFare",
+      "CI/CD",
+      "Prometheus",
+      "Grafana",
+    ],
   },
 ];
 

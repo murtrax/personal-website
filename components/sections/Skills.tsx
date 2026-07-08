@@ -8,7 +8,7 @@ const Skills = () => {
         {SKILLS_DATA.map((category) => (
           <div
             key={category.title}
-            className="group rounded-xl p-4 bg-contrast border border-transparent hover:border-electric-blue transition-colors min-h-50 sm:min-h-44"
+            className="group rounded-xl p-4 bg-contrast border border-transparent hover:border-electric-blue transition-colors min-h-60 sm:min-h-50"
           >
             <h3 className="font-mono font-medium mb-3 text-base text-gray-400 group-hover:text-electric-blue transition-colors">
               {category.title}
