@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Header from "@/components/ui/Header";
+import { SITE_URL } from "@/utils/site-url";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -16,9 +17,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "Hassaan Ahmed | Senior Full Stack Engineer",
   description:
     "Senior full-stack engineer specializing in TypeScript, AI systems, DeFi infrastructure, and scalable backend platforms.",
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({
