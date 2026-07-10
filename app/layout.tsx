@@ -16,8 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hassaan Ahmed",
-  description: "Hassaan Ahmed Personal Website",
+  title: "Hassaan Ahmed | Senior Full Stack Engineer",
+  description:
+    "Senior full-stack engineer specializing in TypeScript, AI systems, DeFi infrastructure, and scalable backend platforms.",
 };
 
 export default function RootLayout({
