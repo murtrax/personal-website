@@ -1,5 +1,6 @@
 import { MdEmail } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import type { ReactNode } from "react";
 
 import type {
   ActionLink,
@@ -32,6 +33,12 @@ export const NAV_ITEMS: Array<{ label: string; href: string }> = [
 ];
 
 export const TITLE: string = "SENIOR FULL STACK ENGINEER";
+
+export const SUBTITLE: ReactNode = (
+  <>
+    AI Systems . <span className="text-electric-blue">DeFi</span> . Full Stack
+  </>
+);
 
 export const DEV_NAME: string = "Hassaan Ahmed";
 

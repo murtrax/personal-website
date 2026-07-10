@@ -3,7 +3,13 @@ import ActionLinks from "@/components/ui/ActionLinks";
 import TagLine from "@/components/ui/TagLine";
 import Terminal from "@/components/ui/Terminal";
 
-import { TITLE, DEV_NAME, DESCRIPTION, INTRO_LINKS } from "@/utils/constants";
+import {
+  TITLE,
+  DEV_NAME,
+  SUBTITLE,
+  DESCRIPTION,
+  INTRO_LINKS,
+} from "@/utils/constants";
 
 const Intro = () => {
   return (
@@ -14,10 +20,7 @@ const Intro = () => {
       </p>
       <div className="flex flex-col gap-2">
         <h1 className="font-bold text-5xl">{DEV_NAME}</h1>
-        <p className="font-mono text-gray-400 text-xl font-bold">
-          AI Systems . <span className="text-electric-blue">DeFi</span> . Full
-          Stack
-        </p>
+        <p className="font-mono text-gray-400 text-xl font-bold">{SUBTITLE}</p>
       </div>
       <div className="flex max-w-[680px]">
         <p className=" text-gray-400 text-xl">{DESCRIPTION}</p>
